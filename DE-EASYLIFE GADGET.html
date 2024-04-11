@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>De-EASYLIFE GADGET</title>
+  <style>
+  body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   color: #333;
+  }
+  .header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+  }
+  .header h1 {
+   margin: 0;
+  }
+  .main-nav {
+   text-align: center;
+   padding: 10px;
+   background-color: #f2f2f2;
+  }
+  .main-nav a {
+   color: #333;
+   text-decoration: none;
+   padding: 5px;
+  }
+  .main-nav a:hover {
+   background-color: #333;
+   color: #fff;
+  }
+  .content {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #f4f4f4;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+  }
+  .content h2 {
+   margin: 0 0 10px;
+  }
+  .content p {
+   margin: 0 0 10px;
+  }
+  .footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+   margin-top: 20px;
+  }
+  .swiper-container{
+    width:100%;
+    height: 500%;
+  } 
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem 0.75rem hsla(0, 0%, 0%, 0.5);
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+</style>
+</head>
+<body>
+  <div class="whole">
+    <div class="header">
+      <h1>DE-EASYLIFE GADGET</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="product.html">Products</a>
+      <a href="contact email.html">Contact</a>
+      <a href="services.html">Services</a>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+      <h2><b>WELCOME TO DE-EASYLIFE GADGET.</b></h2>
+      <p>We are a leading provider of high-quality phone and phone-related products. With years of experience in the industry, we are committed to providing our customers with the best products and services possible.</p>
+    </div>
+
+
+    <!-- Slideshow  -->
+    <section class="container">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img id ="image-slide-1" src="samsung.jpg.jpg" alt="Phone 1">
+          <img id ="image-slide-2" src="X-T30_DSF5320_678x452.jpg" alt="Phone 2">
+          <img id ="image-slide-3" src="iphone.jpg" height="400" alt="phone 3">
+          <img id ="image-slide-4" src="apple-iphone-pro-10.jpg" alt="Phone 4">
+          <img id ="image-slide-5" src="apple-iphone-xs-max-5.jpg" alt="phone 5">
+          <img id ="image-slide-5" src="apple-iphone-xr-1.jpg" alt="phone 6">
+        </div>
+    </div>
+    </section>
+    <!-- End of Slideshow -->
+
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>Copyright © DE-EASYLIFE GADGET 2024</p>
+    </div>
+  </div>  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="slider-nav">
+            <a href="#slider-1"></a>
+            <a href="#slider-2"></a>
+            <a href="#slider-3"></a>
+            <a href="#slider-4"></a>
+          </div> -->
